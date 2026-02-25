@@ -74,4 +74,91 @@ To know if a model will work in production, you must test it.
 
 ---
 
-Would you like me to create a **practice quiz** based on these Chapter 1 concepts to help you test your retention?
+## Non-interactive version of the practice quiz.
+
+### **Chapter 1: The Machine Learning Landscape Quiz**
+
+**1. A system is trained on a dataset where each example is paired with a specific target value (label). What type of learning is this?**
+
+* A) Unsupervised Learning
+* B) Reinforcement Learning
+* C) Supervised Learning
+* D) Instance-based Learning
+
+**2. Which of the following is a classic example of an Unsupervised Learning task?**
+
+* A) Identifying spam emails in an inbox
+* B) Grouping similar customers based on purchasing habits (Clustering)
+* C) Predicting the future price of a stock based on historical data
+* D) Classifying images of handwritten digits
+
+**3. If a model performs exceptionally well on the training data but fails to generalize to new, unseen data, it is likely experiencing:**
+
+* A) Underfitting
+* B) Sampling Bias
+* C) Overfitting
+* D) Feature Engineering
+
+**4. What is the defining characteristic of "Online Learning"?**
+
+* A) It requires a constant internet connection to function.
+* B) It can learn incrementally by feeding data instances sequentially or in mini-batches.
+* C) It is only used for unsupervised tasks like clustering.
+* D) It must be trained on the entire dataset at once (offline).
+
+**5. Why should you use a "Validation Set" (or cross-validation) during model development?**
+
+* A) To increase the amount of data available for the final training.
+* B) To provide the final performance metric for the production report.
+* C) To tune hyperparameters and compare different models without biasing the test set.
+* D) To replace the test set entirely when data is scarce.
+
+**6. "Garbage In, Garbage Out" in Machine Learning refers to the idea that:**
+
+* A) Complex algorithms can compensate for low-quality data.
+* B) The quality of a model’s output is limited by the quality and relevance of the input data.
+* C) Old data should be deleted (thrown out) to make room for new data.
+* D) Deep Learning models do not require data cleaning.
+
+**7. "Feature Engineering" is the process of:**
+
+* A) Upgrading the hardware (CPU/GPU) used for training.
+* B) Selecting and transforming raw data into useful attributes for the learning algorithm.
+* C) Automatically adjusting the learning rate of a neural network.
+* D) Gathering millions of new data points to fix underfitting.
+
+**8. If you use a simple linear model to try to predict a highly complex, curved relationship and it performs poorly on both training and test data, the model is:**
+
+* A) Overfitting
+* B) Underfitting
+* C) Regularized
+* D) Converged
+
+**9. What is the difference between Instance-based and Model-based learning?**
+
+* A) Instance-based uses an equation; Model-based uses a database.
+* B) Instance-based learns by heart and compares new cases to known ones; Model-based builds a generalization (like a function).
+* C) Instance-based is for small data; Model-based is for big data.
+* D) There is no difference; they are two names for the same thing.
+
+**10. When splitting data, what is the "Generalization Error"?**
+
+* A) The error rate on the training set.
+* B) The error caused by choosing the wrong algorithm.
+* C) The error rate the model makes on new, unseen cases (typically measured on the test set).
+* D) The error rate during the feature engineering phase.
+
+---
+
+### **Answer Key**
+
+1. **C** (Supervised Learning)
+2. **B** (Clustering customers)
+3. **C** (Overfitting)
+4. **B** (Learns incrementally)
+5. **C** (To tune hyperparameters)
+6. **B** (Quality of output depends on data quality)
+7. **B** (Transforming raw data into useful features)
+8. **B** (Underfitting)
+9. **B** (Generalization vs. heart-learning)
+10. **C** (Error on new cases)
