@@ -162,3 +162,49 @@ To know if a model will work in production, you must test it.
 8. **B** (Underfitting)
 9. **B** (Generalization vs. heart-learning)
 10. **C** (Error on new cases)
+
+
+## Exercises
+
+In this chapter we have covered some of the most important concepts in machine learning. In the next chapters we will dive deeper and write more code, but before we do, make sure you can answer the following questions:
+
+1. How would you define machine learning?
+
+2. Can you name four types of applications where it shines?
+
+3. What is a labeled training set?
+
+4. What are the two most common supervised tasks?
+
+Can you name four common unsupervised tasks?
+
+What type of algorithm would you use to allow a robot to walk in various unknown terrains?
+
+What type of algorithm would you use to segment your customers into multiple groups?
+
+Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?
+
+What is an online learning system?
+
+What is out-of-core learning?
+
+What type of algorithm relies on a similarity measure to make predictions?
+
+What is the difference between a model parameter and a model hyperparameter?
+
+What do model-based algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
+
+Can you name four of the main challenges in machine learning?
+
+If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name three possible solutions?
+
+What is a test set, and why would you want to use it?
+
+What is the purpose of a validation set?
+
+What is the train-dev set, when do you need it, and how do you use it?
+
+What can go wrong if you tune hyperparameters using the test set?
+
+[Solutions](https://nbviewer.org/github/ageron/handson-ml3/blob/main/01_the_machine_learning_landscape.ipynb#Exercise-Solutions) to these exercises are available at the end of this chapter’s notebook.
+
